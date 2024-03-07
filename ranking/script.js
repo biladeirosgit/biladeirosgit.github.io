@@ -32,6 +32,12 @@ function criarTabela(players, sortBy, secondSortBy) {
 
     // Cabeçalho da tabela
     var headerRow = tabela.insertRow();
+    var posicaoHeader = document.createElement("th");
+    posicaoHeader.textContent = "Posição";
+    headerRow.appendChild(posicaoHeader);
+    var fotoHeader = document.createElement("th");
+    fotoHeader.textContent = "Foto";
+    headerRow.appendChild(fotoHeader);
     Object.keys(players[0]).forEach(function(prop) {
         var th = document.createElement("th");
         th.textContent = prop.replace(/_/g, ' ');
@@ -39,14 +45,25 @@ function criarTabela(players, sortBy, secondSortBy) {
     });
 
     // Preencher a tabela com os jogadores ordenados
-    players.forEach(function(player) {
+    players.forEach(function(player, index) {
         var row = tabela.insertRow();
+        var cellPosicao = row.insertCell();
+        cellPosicao.textContent = index + 1; // Posição do jogador
+        
+        var cellFoto = row.insertCell();
+        var foto = document.createElement("img");
+        foto.src = "images/" + player.Nome + ".png"; // Define o src da imagem
+        foto.alt = player.Nome; // Define o texto alternativo da imagem
+        foto.width = 50; // Define a largura da imagem
+        cellFoto.appendChild(foto); // Adiciona a imagem à célula
+        
         Object.keys(player).forEach(function(prop) {
             var cell = row.insertCell();
             cell.textContent = player[prop];
         });
     });
 }
+
 
 // Criar tabela inicialmente
 criarTabela(players, 'Pontos', 'Participações');
