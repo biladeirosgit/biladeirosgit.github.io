@@ -25,7 +25,7 @@ function criarTabela(players, sortBy, secondSortBy) {
     players.sort(function(a, b) {
         if (a[sortBy] === b[sortBy]) {
             // Em caso de empate, ordenar pelo segundo critério
-            return a[secondSortBy] - b[secondSortBy];
+            return b[secondSortBy] - a[secondSortBy];
         }
         return b[sortBy] - a[sortBy];
     });
