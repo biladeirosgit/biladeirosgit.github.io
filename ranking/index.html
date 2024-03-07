@@ -5,19 +5,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ranking da Competição</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
-<body>
+<body class="w3-light-grey">
 
-<h2>Ranking da Competição</h2>
+    <div class="w3-bar w3-orange" style="height: 50px;font-size: 23px;">
+        <div class="w3-bar-item">
+            <img src="images/logo.png" alt="logo" style="width: auto; height: 40px;">
+        </div>
+        <a href="../index.html" class="w3-bar-item w3-button">Home</a>
+        <div class="w3-dropdown-hover">
+          <button class="w3-button">Rankings</button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="#" class="w3-bar-item w3-button">Geral</a>
+            <a href="bilatrecos/index.html" class="w3-bar-item w3-button">Bilatrecos</a>
+          </div>
+        </div>
+      </div>   
+    
+    <br>
 
-<table id="rankingTable">
-    <thead id="tableHeader">
-    </thead>
-    <tbody id="rankingBody">
-    </tbody>
-</table>
-
+    <div class="w3-container w3-light-gray" style="text-align: center">
+        <div class="w3-container w3-center" style="width:60%; display: inline-block;">
+        <h1 class="w3-center">Ranking Geral</h1>
+        <table id="rankingTable" class="w3-table w3-centered w3-table-all w3-hoverable">
+            <thead id="tableHeader">
+            </thead>
+            <tbody id="rankingBody">
+            </tbody>
+        </table>
+        </div>
+        <div class="w3-container">
+          <p>
+              <b>Pt</b> - Pontos Totais | <b>Pr</b> - Participações | <b>Mpp</b> - Média de pontos por participação | <b>Pl</b> - Número de vezes em primeiro lugar
+            </p>
+        </div>
+    </div>
+    
+    <br>
+    <div class="w3-container w3-orange">
+        <h3>Bila-Olimpíadas 2024</h3>
+    </div>
 <script src="script.js"></script>
-
 </body>
 </html>

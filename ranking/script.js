@@ -1,16 +1,16 @@
 // Dados dos jogadores
-var player1 = { Nome: "Wisdow"    , Pontos: 13   , Participações: 1 , Média_de_Pontos_por_Participação : 13, Primeiros_Lugares: 1 };
-var player2 = { Nome: "Mestre Gui", Pontos: 13   , Participações: 1 , Média_de_Pontos_por_Participação : 13, Primeiros_Lugares: 1 };
-var player3 = { Nome: "Xadas"     , Pontos: 10   , Participações: 1 , Média_de_Pontos_por_Participação : 10, Primeiros_Lugares: 0 };
-var player4 = { Nome: "Bárbara"   , Pontos: 10   , Participações: 1 , Média_de_Pontos_por_Participação : 10, Primeiros_Lugares: 0 };
-var player5 = { Nome: "Simão"     , Pontos: 8    , Participações: 1 , Média_de_Pontos_por_Participação : 8 , Primeiros_Lugares: 0 };
-var player6 = { Nome: "Camilo"    , Pontos: 8    , Participações: 1 , Média_de_Pontos_por_Participação : 8 , Primeiros_Lugares: 0 };
-var player7 = { Nome: "Braz"      , Pontos: 6    , Participações: 1 , Média_de_Pontos_por_Participação : 6 , Primeiros_Lugares: 0 };
-var player8 = { Nome: "Cludos"    , Pontos: 6    , Participações: 1 , Média_de_Pontos_por_Participação : 6 , Primeiros_Lugares: 0 };
-var player9 = { Nome: "Geremias"  , Pontos: 5    , Participações: 1 , Média_de_Pontos_por_Participação : 5 , Primeiros_Lugares: 0 };
-var player10= { Nome: "Esquilo"   , Pontos: 5    , Participações: 1 , Média_de_Pontos_por_Participação : 5 , Primeiros_Lugares: 0 };
-var player11= { Nome: "Squnha"    , Pontos: 5    , Participações: 1 , Média_de_Pontos_por_Participação : 5 , Primeiros_Lugares: 0 };
-var player12= { Nome: "Rodry"     , Pontos: 5    , Participações: 1 , Média_de_Pontos_por_Participação : 5 , Primeiros_Lugares: 0 };
+var player1 = { Nome: "Mestre Gui", Pt: 13   , Pr: 1 , Mpp : 13, Pl: 1 };
+var player2 = { Nome: "Wisdow"    , Pt: 13   , Pr: 1 , Mpp : 13, Pl: 1 };
+var player3 = { Nome: "Xadas"     , Pt: 10   , Pr: 1 , Mpp : 10, Pl: 0 };
+var player4 = { Nome: "Bárbara"   , Pt: 10   , Pr: 1 , Mpp : 10, Pl: 0 };
+var player5 = { Nome: "Simão"     , Pt: 8    , Pr: 1 , Mpp : 8 , Pl: 0 };
+var player6 = { Nome: "Camilo"    , Pt: 8    , Pr: 1 , Mpp : 8 , Pl: 0 };
+var player7 = { Nome: "Braz"      , Pt: 6    , Pr: 1 , Mpp : 6 , Pl: 0 };
+var player8 = { Nome: "Cludos"    , Pt: 6    , Pr: 1 , Mpp : 6 , Pl: 0 };
+var player9 = { Nome: "Geremias"  , Pt: 5    , Pr: 1 , Mpp : 5 , Pl: 0 };
+var player10= { Nome: "Esquilo"   , Pt: 5    , Pr: 1 , Mpp : 5 , Pl: 0 };
+var player11= { Nome: "Squnha"    , Pt: 5    , Pr: 1 , Mpp : 5 , Pl: 0 };
+var player12= { Nome: "Rodry"     , Pt: 5    , Pr: 1 , Mpp : 5 , Pl: 0 };
 
 var players = [player1, player2, player3, player4, player5, player6, player7, player8, player9, player10, player11, player12];
 
@@ -33,11 +33,8 @@ function criarTabela(players, sortBy, secondSortBy) {
     // Cabeçalho da tabela
     var headerRow = tabela.insertRow();
     var posicaoHeader = document.createElement("th");
-    posicaoHeader.textContent = "Posição";
+    posicaoHeader.textContent = "#";
     headerRow.appendChild(posicaoHeader);
-    var fotoHeader = document.createElement("th");
-    fotoHeader.textContent = "Foto";
-    headerRow.appendChild(fotoHeader);
     Object.keys(players[0]).forEach(function(prop) {
         var th = document.createElement("th");
         th.textContent = prop.replace(/_/g, ' ');
@@ -48,22 +45,26 @@ function criarTabela(players, sortBy, secondSortBy) {
     players.forEach(function(player, index) {
         var row = tabela.insertRow();
         var cellPosicao = row.insertCell();
-        cellPosicao.textContent = index + 1; // Posição do jogador
-        
+        cellPosicao.textContent = index + 1 + "º"; // Posição do jogador
         var cellFoto = row.insertCell();
         var foto = document.createElement("img");
         foto.src = "images/" + player.Nome + ".png"; // Define o src da imagem
-        foto.alt = player.Nome; // Define o texto alternativo da imagem
+        foto.alt = ""; // Define o texto alternativo da imagem
         foto.width = 50; // Define a largura da imagem
         cellFoto.appendChild(foto); // Adiciona a imagem à célula
+        var nome = document.createElement("div")
+        nome.textContent = player.Nome;
+        cellFoto.appendChild(nome)
         
         Object.keys(player).forEach(function(prop) {
+            if (prop!="Nome"){
             var cell = row.insertCell();
             cell.textContent = player[prop];
+            }
         });
     });
 }
 
 
 // Criar tabela inicialmente
-criarTabela(players, 'Pontos', 'Participações');
+criarTabela(players, 'Pts', 'Pr');
