@@ -12,7 +12,7 @@ var player10= { Nome: "Esquilo"   , Pt: 5    , Pr: 1 , Mpp : 5 , Pl: 0 };
 var player11= { Nome: "Squnha"    , Pt: 5    , Pr: 1 , Mpp : 5 , Pl: 0 };
 var player12= { Nome: "Rodry"     , Pt: 5    , Pr: 1 , Mpp : 5 , Pl: 0 };
 
-var players = [player1, player2, player3, player4, player5, player6, player7, player8, player9, player10, player11, player12];
+var players = [player2, player1, player3, player4, player5, player6, player7, player8, player9, player10, player11, player12];
 
 // Função para criar a tabela
 function criarTabela(players, sortBy, secondSortBy) {
