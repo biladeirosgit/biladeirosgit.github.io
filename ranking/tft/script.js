@@ -42,10 +42,10 @@ var playersTFT = [
 {"#": "6º", Nome: "Geremias"   , Pts: "+5" },
 {"#": "7º", Nome: "Squnha"     , Pts: "+4" },
 {"#": "8º", Nome: "Hydra"      , Pts: "+4" },
-{"#": "9º", Nome: "João Nuno"  , Pts: "+2" },
-{"#": "9º", Nome: "Lekky"      , Pts: "+2" },
-{"#": "9º", Nome: "Wisdow"     , Pts: "+2" },
-{"#": "9º", Nome: "Braz"       , Pts: "+2" }
+{"#": "9º", Nome: "João Nuno"  , Pts: "+3" },
+{"#": "9º", Nome: "Lekky"      , Pts: "+3" },
+{"#": "9º", Nome: "Wisdow"     , Pts: "+3" },
+{"#": "9º", Nome: "Braz"       , Pts: "+3" }
 
 ]
 
