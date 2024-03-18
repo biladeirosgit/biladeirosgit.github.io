@@ -1,18 +1,22 @@
 // Dados dos jogadores
-var player1 = { Nome: "Mestre Gui", Pt: 13   , Pr: 1 , Mpp : 13, Pl: 1 };
-var player2 = { Nome: "Wisdow"    , Pt: 13   , Pr: 1 , Mpp : 13, Pl: 1 };
-var player3 = { Nome: "Xadas"     , Pt: 10   , Pr: 1 , Mpp : 10, Pl: 0 };
-var player4 = { Nome: "Bárbara"   , Pt: 10   , Pr: 1 , Mpp : 10, Pl: 0 };
-var player5 = { Nome: "Simão"     , Pt: 8    , Pr: 1 , Mpp : 8 , Pl: 0 };
-var player6 = { Nome: "Camilo"    , Pt: 8    , Pr: 1 , Mpp : 8 , Pl: 0 };
-var player7 = { Nome: "Braz"      , Pt: 6    , Pr: 1 , Mpp : 6 , Pl: 0 };
-var player8 = { Nome: "Cludos"    , Pt: 6    , Pr: 1 , Mpp : 6 , Pl: 0 };
-var player9 = { Nome: "Geremias"  , Pt: 5    , Pr: 1 , Mpp : 5 , Pl: 0 };
-var player10= { Nome: "Esquilo"   , Pt: 5    , Pr: 1 , Mpp : 5 , Pl: 0 };
-var player11= { Nome: "Squnha"    , Pt: 5    , Pr: 1 , Mpp : 5 , Pl: 0 };
-var player12= { Nome: "Rodry"     , Pt: 5    , Pr: 1 , Mpp : 5 , Pl: 0 };
-
-var players = [player2, player1, player3, player4, player5, player6, player7, player8, player9, player10, player11, player12];
+var players = [
+{ Nome: "Mestre Gui", Pts: 23   , Pr: 2 , Mpp : 11.5 , Pl: 1 },
+{ Nome: "Wisdow"    , Pts: 15   , Pr: 1 , Mpp : 7.5  , Pl: 1 },
+{ Nome: "Xadas"     , Pts: 18   , Pr: 2 , Mpp : 9    , Pl: 0 },
+{ Nome: "Bárbara"   , Pts: 18   , Pr: 2 , Mpp : 9    , Pl: 0 },
+{ Nome: "Simão"     , Pts: 8    , Pr: 1 , Mpp : 8    , Pl: 0 },
+{ Nome: "Camilo"    , Pts: 8    , Pr: 1 , Mpp : 8    , Pl: 0 },
+{ Nome: "Braz"      , Pts: 8    , Pr: 2 , Mpp : 4    , Pl: 0 },
+{ Nome: "Cludos"    , Pts: 11   , Pr: 2 , Mpp : 5.5  , Pl: 0 },
+{ Nome: "Geremias"  , Pts: 10   , Pr: 2 , Mpp : 5    , Pl: 0 },
+{ Nome: "Esquilo"   , Pts: 5    , Pr: 1 , Mpp : 5    , Pl: 0 },
+{ Nome: "Squnha"    , Pts: 9    , Pr: 2 , Mpp : 4.5  , Pl: 0 },
+{ Nome: "Rodry"     , Pts: 5    , Pr: 1 , Mpp : 5    , Pl: 0 },
+{ Nome: "Droga"     , Pts: 13   , Pr: 1 , Mpp : 13   , Pl: 1 },
+{ Nome: "Hydra"     , Pts: 4    , Pr: 1 , Mpp : 4    , Pl: 0 },
+{ Nome: "João Nuno" , Pts: 2    , Pr: 1 , Mpp : 2    , Pl: 0 },
+{ Nome: "Lekky"     , Pts: 2    , Pr: 1 , Mpp : 2    , Pl: 0 }
+]
 
 // Função para criar a tabela
 function criarTabela(players, sortBy, secondSortBy) {
