@@ -55,6 +55,7 @@ function criarTabela(players, sortBy, secondSortBy) {
         foto.src = "images/" + player.Nome + ".png"; // Define o src da imagem
         foto.alt = ""; // Define o texto alternativo da imagem
         foto.width = 50; // Define a largura da imagem
+        foto.style.borderRadius = "50%"; // Torna a imagem redonda
         cellFoto.appendChild(foto); // Adiciona a imagem à célula
         var nome = document.createElement("div")
         nome.textContent = player.Nome;
