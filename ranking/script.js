@@ -1,7 +1,7 @@
 // Dados dos jogadores
 var players = [
 { Nome: "Mestre Gui", Pts: 23   , Pr: 2 , Mpp : 11.5 , Pl: 1 },
-{ Nome: "Wisdow"    , Pts: 16   , Pr: 1 , Mpp : 8    , Pl: 1 },
+{ Nome: "Wisdow"    , Pts: 16   , Pr: 2 , Mpp : 8    , Pl: 1 },
 { Nome: "Xadas"     , Pts: 18   , Pr: 2 , Mpp : 9    , Pl: 0 },
 { Nome: "Bárbara"   , Pts: 18   , Pr: 2 , Mpp : 9    , Pl: 0 },
 { Nome: "Simão"     , Pts: 8    , Pr: 1 , Mpp : 8    , Pl: 0 },
