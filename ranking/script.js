@@ -1,9 +1,9 @@
 // Dados dos jogadores
 var players = [
 { "#": "1º" ,Nome: "Xadas"     , Pts: 26   , Pr: 3 , Mpp : 8.7  , Tg: 1 },
-{ "#": "2º" ,Nome: "Mestre Gui", Pts: 23   , Pr: 2 , Mpp : 11.5 , Tg: 1 },
-{ "#": "3º" ,Nome: "Bárbara"   , Pts: 22   , Pr: 3 , Mpp : 7.3  , Tg: 0 },
-{ "#": "4º" ,Nome: "Wisdow"    , Pts: 20   , Pr: 3 , Mpp : 6.7  , Tg: 2 },
+{ "#": "2º" ,Nome: "Wisdow"    , Pts: 24   , Pr: 3 , Mpp : 8    , Tg: 2 },
+{ "#": "3º" ,Nome: "Mestre Gui", Pts: 23   , Pr: 2 , Mpp : 11.5 , Tg: 1 },
+{ "#": "4º" ,Nome: "Bárbara"   , Pts: 22   , Pr: 3 , Mpp : 7.3  , Tg: 0 },
 { "#": "5º" ,Nome: "Geremias"  , Pts: 18   , Pr: 3 , Mpp : 6.0  , Tg: 1 },
 { "#": "6º" ,Nome: "Braz"      , Pts: 17   , Pr: 3 , Mpp : 5.7  , Tg: 1 },
 { "#": "6º" ,Nome: "Squnha"    , Pts: 17   , Pr: 3 , Mpp : 5.7  , Tg: 1 },
