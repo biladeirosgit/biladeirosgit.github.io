@@ -1,30 +1,42 @@
 // Dados dos jogadores
 var players = [
-{ "#": "1º" ,Nome: "Xadas"     , Pts: 26   , Pr: 3 , Mpp : 8.7  , Tg: 1 },
-{ "#": "2º" ,Nome: "Wisdow"    , Pts: 24   , Pr: 3 , Mpp : 8    , Tg: 2 },
-{ "#": "3º" ,Nome: "Mestre Gui", Pts: 23   , Pr: 2 , Mpp : 11.5 , Tg: 1 },
-{ "#": "4º" ,Nome: "Bárbara"   , Pts: 22   , Pr: 3 , Mpp : 7.3  , Tg: 0 },
-{ "#": "5º" ,Nome: "Geremias"  , Pts: 18   , Pr: 3 , Mpp : 6.0  , Tg: 1 },
-{ "#": "6º" ,Nome: "Braz"      , Pts: 17   , Pr: 3 , Mpp : 5.7  , Tg: 1 },
-{ "#": "6º" ,Nome: "Squnha"    , Pts: 17   , Pr: 3 , Mpp : 5.7  , Tg: 1 },
-{ "#": "8º" ,Nome: "Cludos"    , Pts: 15   , Pr: 3 , Mpp : 5.0  , Tg: 0 },
-{ "#": "9º" ,Nome: "Droga"     , Pts: 13   , Pr: 1 , Mpp : 13.0 , Tg: 1 },
-{ "#": "10º" ,Nome: "Esquilo"   , Pts: 13   , Pr: 2 , Mpp : 6.5  , Tg: 1 },
-{ "#": "10º" ,Nome: "Rodry"     , Pts: 13   , Pr: 2 , Mpp : 6.5  , Tg: 1 },
-{ "#": "12º" ,Nome: "Filipe"    , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
-{ "#": "12º" ,Nome: "Lemos"     , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
-{ "#": "12º" ,Nome: "Sardoal"   , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
-{ "#": "15º" ,Nome: "Simão"     , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 0 },
-{ "#": "15º" ,Nome: "Camilo"    , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 0 },
-{ "#": "17º" ,Nome: "Hydra"     , Pts: 8    , Pr: 2 , Mpp : 4.0  , Tg: 0 },
-{ "#": "18º" ,Nome: "João Nuno" , Pts: 7    , Pr: 2 , Mpp : 3.5  , Tg: 0 },
-{ "#": "19º" ,Nome: "Serino"    , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
-{ "#": "19º" ,Nome: "Areias"    , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
-{ "#": "19º" ,Nome: "Tone"      , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
-{ "#": "19º" ,Nome: "Rui"       , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
-{ "#": "19º" ,Nome: "Costa"     , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
-{ "#": "19º" ,Nome: "Zé Afonso" , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
-{ "#": "25º" ,Nome: "Lekky"     , Pts: 3    , Pr: 1 , Mpp : 3.0  , Tg: 0 },
+{ "#": "1º" ,Nome: "Wisdow"     , Pts: 30   , Pr: 4 , Mpp : 7.5  , Tg: 2 },
+{ "#": "2º" ,Nome: "Xadas"      , Pts: 28   , Pr: 4 , Mpp : 7.0  , Tg: 1 },
+{ "#": "3º" ,Nome: "Mestre Gui" , Pts: 25   , Pr: 3 , Mpp : 8.3  , Tg: 1 },
+{ "#": "4º" ,Nome: "Bárbara"    , Pts: 22   , Pr: 3 , Mpp : 7.3  , Tg: 0 },
+{ "#": "5º" ,Nome: "Squnha"     , Pts: 21   , Pr: 4 , Mpp : 5.3  , Tg: 1 },
+{ "#": "6º" ,Nome: "Cludos"     , Pts: 21   , Pr: 4 , Mpp : 5.3  , Tg: 0 },
+{ "#": "7º" ,Nome: "Geremias"   , Pts: 20   , Pr: 4 , Mpp : 5.0  , Tg: 1 },
+{ "#": "8º" ,Nome: "Braz"       , Pts: 17   , Pr: 3 , Mpp : 5.7  , Tg: 1 },
+{ "#": "8º" ,Nome: "Rodry"      , Pts: 17   , Pr: 3 , Mpp : 5.7  , Tg: 1 },
+{ "#": "10º" ,Nome: "Hydra"     , Pts: 14   , Pr: 3 , Mpp : 4.7  , Tg: 0 },
+{ "#": "11º" ,Nome: "Droga"     , Pts: 13   , Pr: 1 , Mpp : 13.0 , Tg: 1 },
+{ "#": "12º" ,Nome: "Esquilo"   , Pts: 13   , Pr: 2 , Mpp : 6.5  , Tg: 1 },
+{ "#": "13º" ,Nome: "Lemos"     , Pts: 12   , Pr: 2 , Mpp : 6.0  , Tg: 1 },
+{ "#": "13º" ,Nome: "Zé Afonso" , Pts: 12   , Pr: 2 , Mpp : 6.0  , Tg: 1 },
+{ "#": "15º" ,Nome: "Lekky"     , Pts: 11   , Pr: 2 , Mpp : 5.5  , Tg: 1 },
+{ "#": "16º" ,Nome: "João Nuno" , Pts: 11   , Pr: 3 , Mpp : 3.7  , Tg: 0 },
+{ "#": "17º" ,Nome: "Filipe"    , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
+{ "#": "17º" ,Nome: "Sardoal"   , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
+{ "#": "17º" ,Nome: "Omniomm"    , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
+{ "#": "17º" ,Nome: "Madmess"   , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
+{ "#": "17º" ,Nome: "Frost"     , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
+{ "#": "22º" ,Nome: "Simão"     , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 0 },
+{ "#": "22º" ,Nome: "Camilo"    , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 0 },
+{ "#": "24º" ,Nome: "Gama"      , Pts: 6    , Pr: 1 , Mpp : 6.0  , Tg: 0 },
+{ "#": "24º" ,Nome: "Russo"     , Pts: 6    , Pr: 1 , Mpp : 6.0  , Tg: 0 },
+{ "#": "26º" ,Nome: "Areias"    , Pts: 6    , Pr: 2 , Mpp : 3.0  , Tg: 0 },
+{ "#": "27º" ,Nome: "Serino"    , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
+{ "#": "27º" ,Nome: "Tone"      , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
+{ "#": "27º" ,Nome: "Rui"       , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
+{ "#": "27º" ,Nome: "Costa"     , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
+{ "#": "27º" ,Nome: "Gelly"     , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
+{ "#": "32º" ,Nome: "Frazão"    , Pts: 2    , Pr: 1 , Mpp : 2.0  , Tg: 0 },
+
+
+
+
+
 ]
 
 var participacoes = 
@@ -42,6 +54,10 @@ var participacoes =
                 "Lugar" : "1º",
                 "Pontos" : 8
             },
+            "LOL 5x5" : {
+                "Lugar" : "4º",
+                "Pontos" : 2
+            }
         },
         "Wisdow" : {
             "Bilatrecos" : {
@@ -56,6 +72,10 @@ var participacoes =
                 "Lugar" : "1º",
                 "Pontos" : 8
             },
+            "LOL 5x5" : {
+                "Lugar" : "2º",
+                "Pontos" : 6
+            }
         },
         "Mestre Gui" : {
             "Bilatrecos" : {
@@ -66,6 +86,10 @@ var participacoes =
                 "Lugar" : "2º",
                 "Pontos" : 10
             },
+            "LOL 5x5" : {
+                "Lugar" : "4º",
+                "Pontos" : 2
+            }
         },
         "Bárbara" : {
             "Bilatrecos" : {
@@ -94,6 +118,10 @@ var participacoes =
                 "Lugar" : "1º",
                 "Pontos" : 8
             },
+            "LOL 5x5" : {
+                "Lugar" : "4º",
+                "Pontos" : 2
+            }
         },
         "Braz" : {
             "Bilatrecos" : {
@@ -122,6 +150,10 @@ var participacoes =
                 "Lugar" : "1º",
                 "Pontos" : 8
             },
+            "LOL 5x5" : {
+                "Lugar" : "3º",
+                "Pontos" : 4
+            }
         },
         "Cludos" : {
             "Bilatrecos" : {
@@ -136,6 +168,10 @@ var participacoes =
                 "Lugar" : "2º",
                 "Pontos" : 4
             },
+            "LOL 5x5" : {
+                "Lugar" : "2º",
+                "Pontos" : 6
+            }
         },
         "Droga" : {
             "TFT" : {
@@ -162,6 +198,10 @@ var participacoes =
                 "Lugar" : "1º",
                 "Pontos" : 8
             },
+            "LOL 5x5" : {
+                "Lugar" : "3º",
+                "Pontos" : 4
+            }
         },
         "Filipe" : {
             "Futbiladas" : {
@@ -174,6 +214,14 @@ var participacoes =
                 "Lugar" : "1º",
                 "Pontos" : 8
             },
+            "LOL 5x5" : {
+                "Lugar" : "3º",
+                "Pontos" : 4
+            },
+            "LOL 5x5" : {
+                "Lugar" : "2º",
+                "Pontos" : 6
+            }
         },
         "Sardoal" : {
             "Futbiladas" : {
@@ -202,6 +250,10 @@ var participacoes =
                 "Lugar" : "2º",
                 "Pontos" : 4
             },
+            "LOL 5x5" : {
+                "Lugar" : "2º",
+                "Pontos" : 6
+            }
         },
         "João Nuno" : {
             "TFT" : {
@@ -212,6 +264,10 @@ var participacoes =
                 "Lugar" : "2º",
                 "Pontos" : 4
             },
+            "LOL 5x5" : {
+                "Lugar" : "3º",
+                "Pontos" : 4
+            }
         },
         "Serino" : {
             "Futbiladas" : {
@@ -224,6 +280,10 @@ var participacoes =
                 "Lugar" : "2º",
                 "Pontos" : 4
             },
+            "LOL 5x5" : {
+                "Lugar" : "4º",
+                "Pontos" : 2
+            }
         },
         "Tone" : {
             "Futbiladas" : {
@@ -248,12 +308,62 @@ var participacoes =
                 "Lugar" : "2º",
                 "Pontos" : 4
             },
+            "LOL 5x5" : {
+                "Lugar" : "1º",
+                "Pontos" : 8
+            }
         },
         "Lekky" : {
             "TFT" : {
                 "Lugar" : "10º",
                 "Pontos" : 3
             },
+            "LOL 5x5" : {
+                "Lugar" : "1º",
+                "Pontos" : 8
+            }
+        },
+        "Frazão" : {
+            "LOL 5x5" : {
+                "Lugar" : "4º",
+                "Pontos" : 2
+            }
+        },
+        "Gelly" : {
+            "LOL 5x5" : {
+                "Lugar" : "3º",
+                "Pontos" : 4
+            }
+        },
+        "Gama" : {
+            "LOL 5x5" : {
+                "Lugar" : "2º",
+                "Pontos" : 6
+            }
+        },
+        "Russo" : {
+            "LOL 5x5" : {
+                "Lugar" : "2º",
+                "Pontos" : 6
+            }
+        },
+        "Madmess" : {
+            "LOL 5x5" : {
+                "Lugar" : "1º",
+                "Pontos" : 8
+            }
+        },
+        "Omniomm" : {
+            "LOL 5x5" : {
+                "Lugar" : "1º",
+                "Pontos" : 8
+            }
+        },
+        "Frost" : {
+            "LOL 5x5" : {
+                "Lugar" : "1º",
+                "Pontos" : 8
+            }
         }
     }
 
