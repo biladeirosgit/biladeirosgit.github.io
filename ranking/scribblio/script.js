@@ -1,7 +1,7 @@
 // Dados dos jogadores
 var player1  = { "#" : "1º"  , "Nome" : "Squnha"     , "Pt" : "+13", "Ps" : 32545};
 var player2  = { "#" : "2º"  , "Nome" : "Braz"       , "Pt" : "+10", "Ps" : 32025};
-var player3  = { "#" : "3º"  , "Nome" : "Metsre Gui" , "Pt" : "+8", "Ps" : 30705};
+var player3  = { "#" : "3º"  , "Nome" : "Mestre Gui" , "Pt" : "+8", "Ps" : 30705};
 var player4  = { "#" : "4º"  , "Nome" : "Frazão"     , "Pt" : "+6", "Ps" : 29095};
 var player5  = { "#" : "5º"  , "Nome" : "Geremias"   , "Pt" : "+5", "Ps" : 28410};
 var player6  = { "#" : "6º"  , "Nome" : "Lemos"      , "Pt" : "+5", "Ps" : 27115};
