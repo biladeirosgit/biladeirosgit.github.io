@@ -1,37 +1,40 @@
 // Dados dos jogadores
 var players = [
-{ "#": "1º" ,Nome: "Squnha"     , Pts: 34   , Pr: 5 , Mpp : 6.8  , Tg: 2 },
-{ "#": "2º" ,Nome: "Mestre Gui" , Pts: 33   , Pr: 4 , Mpp : 8.3  , Tg: 1 },
-{ "#": "3º" ,Nome: "Wisdow"     , Pts: 32   , Pr: 5 , Mpp : 6.4  , Tg: 2 },
-{ "#": "4º" ,Nome: "Xadas"      , Pts: 32   , Pr: 5 , Mpp : 6.4  , Tg: 1 },
-{ "#": "5º" ,Nome: "Braz"       , Pts: 27   , Pr: 4 , Mpp : 6.8  , Tg: 1 },
-{ "#": "6º" ,Nome: "Bárbara"    , Pts: 25   , Pr: 4 , Mpp : 6.3  , Tg: 0 },
-{ "#": "7º" ,Nome: "Geremias"   , Pts: 25   , Pr: 5 , Mpp : 5.0  , Tg: 1 },
-{ "#": "8º" ,Nome: "Cludos"     , Pts: 25   , Pr: 5 , Mpp : 5.0  , Tg: 0 },
-{ "#": "9º" ,Nome: "Rodry"      , Pts: 17   , Pr: 3 , Mpp : 5.7  , Tg: 1 },
-{ "#": "9º" ,Nome: "Lemos"      , Pts: 17   , Pr: 3 , Mpp : 5.7  , Tg: 1 },
-{ "#": "11º" ,Nome: "Hydra"     , Pts: 17   , Pr: 4 , Mpp : 4.3  , Tg: 0 },
-{ "#": "12º" ,Nome: "Droga"     , Pts: 13   , Pr: 1 , Mpp : 13.0 , Tg: 1 },
-{ "#": "13º" ,Nome: "Esquilo"   , Pts: 13   , Pr: 2 , Mpp : 6.5  , Tg: 1 },
-{ "#": "14º" ,Nome: "Lekky"     , Pts: 13   , Pr: 3 , Mpp : 4.3  , Tg: 1 },
-{ "#": "15º" ,Nome: "João Nuno" , Pts: 11   , Pr: 3 , Mpp : 3.7  , Tg: 0 },
-{ "#": "16º" ,Nome: "Filipe"    , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
-{ "#": "16º" ,Nome: "Sardoal"   , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
-{ "#": "16º" ,Nome: "Omniomm"   , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
-{ "#": "16º" ,Nome: "Madmess"   , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
-{ "#": "16º" ,Nome: "Frost"     , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
-{ "#": "21º" ,Nome: "Simão"     , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 0 },
-{ "#": "21º" ,Nome: "Camilo"    , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 0 },
-{ "#": "23º" ,Nome: "Frazão"    , Pts: 8    , Pr: 2 , Mpp : 4.0  , Tg: 0 },
-{ "#": "24º" ,Nome: "Gama"      , Pts: 6    , Pr: 1 , Mpp : 6.0  , Tg: 0 },
-{ "#": "24º" ,Nome: "Russo"     , Pts: 6    , Pr: 1 , Mpp : 6.0  , Tg: 0 },
-{ "#": "26º" ,Nome: "Zé Afonso" , Pts: 6    , Pr: 2 , Mpp : 3.0  , Tg: 1 },
-{ "#": "27º" ,Nome: "Areias"    , Pts: 6    , Pr: 2 , Mpp : 3.0  , Tg: 0 },
-{ "#": "28º" ,Nome: "Serino"    , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
-{ "#": "28º" ,Nome: "Tone"      , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
-{ "#": "28º" ,Nome: "Rui"       , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
-{ "#": "28º" ,Nome: "Costa"     , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
-{ "#": "28º" ,Nome: "Gelly"     , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
+{ "#": "1º" ,Nome: "Squnha"     , Pts: 42   , Pr: 6 , Mpp : 7.0  , Tg: 3 },
+{ "#": "2º" ,Nome: "Mestre Gui" , Pts: 35   , Pr: 5 , Mpp : 7.0  , Tg: 1 },
+{ "#": "3º" ,Nome: "Wisdow"     , Pts: 35   , Pr: 6 , Mpp : 5.8  , Tg: 2 },
+{ "#": "4º" ,Nome: "Xadas"      , Pts: 34   , Pr: 6 , Mpp : 5.7  , Tg: 1 },
+{ "#": "5º" ,Nome: "Braz"       , Pts: 31   , Pr: 5 , Mpp : 6.2  , Tg: 1 },
+{ "#": "6º" ,Nome: "Cludos"     , Pts: 28   , Pr: 6 , Mpp : 4.7  , Tg: 0 },
+{ "#": "7º" ,Nome: "Bárbara"    , Pts: 27   , Pr: 5 , Mpp : 5.4  , Tg: 0 },
+{ "#": "8º" ,Nome: "Geremias"   , Pts: 27   , Pr: 6 , Mpp : 4.5  , Tg: 1 },
+{ "#": "9º" ,Nome: "Hydra"      , Pts: 25   , Pr: 5 , Mpp : 5.0  , Tg: 1 },
+{ "#": "10º" ,Nome: "Lemos"     , Pts: 23   , Pr: 4 , Mpp : 5.8  , Tg: 1 },
+{ "#": "11º" ,Nome: "Lekky"     , Pts: 21   , Pr: 4 , Mpp : 5.3  , Tg: 2 },
+{ "#": "12º" ,Nome: "Rodry"     , Pts: 17   , Pr: 3 , Mpp : 5.7  , Tg: 1 },
+{ "#": "13º" ,Nome: "Droga"     , Pts: 13   , Pr: 1 , Mpp : 13.0 , Tg: 1 },
+{ "#": "14º" ,Nome: "Esquilo"   , Pts: 13   , Pr: 2 , Mpp : 6.5  , Tg: 1 },
+{ "#": "15º" ,Nome: "Sardoal"   , Pts: 11   , Pr: 2 , Mpp : 5.5  , Tg: 1 },
+{ "#": "16º" ,Nome: "João Nuno" , Pts: 11   , Pr: 3 , Mpp : 3.7  , Tg: 0 },
+{ "#": "17º" ,Nome: "Tone"      , Pts: 10   , Pr: 2 , Mpp : 5.0  , Tg: 0 },
+{ "#": "17º" ,Nome: "Gelly"     , Pts: 10   , Pr: 2 , Mpp : 5.0  , Tg: 0 },
+{ "#": "19º" ,Nome: "Frazão"    , Pts: 10   , Pr: 3 , Mpp : 3.3  , Tg: 0 },
+{ "#": "20º" ,Nome: "Filipe"    , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
+{ "#": "20º" ,Nome: "Omniomm"   , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
+{ "#": "20º" ,Nome: "Madmess"   , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
+{ "#": "20º" ,Nome: "Frost"     , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 1 },
+{ "#": "24º" ,Nome: "Simão"     , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 0 },
+{ "#": "24º" ,Nome: "Camilo"    , Pts: 8    , Pr: 1 , Mpp : 8.0  , Tg: 0 },
+{ "#": "26º" ,Nome: "Gama"      , Pts: 6    , Pr: 1 , Mpp : 6.0  , Tg: 0 },
+{ "#": "26º" ,Nome: "Russo"     , Pts: 6    , Pr: 1 , Mpp : 6.0  , Tg: 0 },
+{ "#": "28º" ,Nome: "Zé Afonso" , Pts: 6    , Pr: 2 , Mpp : 3.0  , Tg: 1 },
+{ "#": "28º" ,Nome: "Areias"    , Pts: 6    , Pr: 2 , Mpp : 3.0  , Tg: 0 },
+{ "#": "30º" ,Nome: "Serino"    , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
+{ "#": "30º" ,Nome: "Rui"       , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
+{ "#": "30º" ,Nome: "Costa"     , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
+{ "#": "30º" ,Nome: "Escher"    , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
+{ "#": "30º" ,Nome: "Atlas"     , Pts: 4    , Pr: 1 , Mpp : 4.0  , Tg: 0 },
+{ "#": "35º" ,Nome: "Alcunha"   , Pts: 2    , Pr: 1 , Mpp : 2.0  , Tg: 0 },
 
 
 
@@ -61,6 +64,10 @@ var participacoes =
             "Scribbl.io" : {
                 "Lugar" : "8º",
                 "Pontos" : 4
+            },
+            "Rocket League 3x3" : {
+                "Lugar" : "5º",
+                "Pontos" : 2
             }
         },
         "Wisdow" : {
@@ -83,6 +90,10 @@ var participacoes =
             "Scribbl.io" : {
                 "Lugar" : "11º",
                 "Pontos" : 2
+            },
+            "Rocket League 3x3" : {
+                "Lugar" : "4º",
+                "Pontos" : 3
             }
         },
         "Mestre Gui" : {
@@ -101,6 +112,10 @@ var participacoes =
             "Scribbl.io" : {
                 "Lugar" : "3º",
                 "Pontos" : 8
+            },
+            "Rocket League 3x3" : {
+                "Lugar" : "5º",
+                "Pontos" : 2
             }
         },
         "Bárbara" : {
@@ -119,6 +134,10 @@ var participacoes =
             "Scribbl.io" : {
                 "Lugar" : "9º",
                 "Pontos" : 3
+            },
+            "Rocket League 3x3" : {
+                "Lugar" : "5º",
+                "Pontos" : 2
             }
         },
         "Geremias" : {
@@ -141,6 +160,10 @@ var participacoes =
             "Scribbl.io" : {
                 "Lugar" : "5º",
                 "Pontos" : 5
+            },
+            "Rocket League 3x3" : {
+                "Lugar" : "5º",
+                "Pontos" : 2
             }
         },
         "Braz" : {
@@ -159,6 +182,10 @@ var participacoes =
             "Scribbl.io" : {
                 "Lugar" : "2º",
                 "Pontos" : 10
+            },
+            "Rocket League 3x3" : {
+                "Lugar" : "3º",
+                "Pontos" : 4
             }
         },
         "Squnha" : {
@@ -181,6 +208,10 @@ var participacoes =
             "Scribbl.io" : {
                 "Lugar" : "1º",
                 "Pontos" : 13
+            },
+            "Rocket League 3x3" : {
+                "Lugar" : "1º",
+                "Pontos" : 8
             }
         },
         "Cludos" : {
@@ -203,6 +234,10 @@ var participacoes =
             "Scribbl.io" : {
                 "Lugar" : "7º",
                 "Pontos" : 4
+            },
+            "Rocket League 3x3" : {
+                "Lugar" : "4º",
+                "Pontos" : 3
             }
         },
         "Droga" : {
@@ -253,6 +288,10 @@ var participacoes =
             "Scribbl.io" : {
                 "Lugar" : "6º",
                 "Pontos" : 5
+            },
+            "Rocket League 3x3" : {
+                "Lugar" : "2º",
+                "Pontos" : 6
             }
         },
         "Sardoal" : {
@@ -260,6 +299,10 @@ var participacoes =
                 "Lugar" : "1º",
                 "Pontos" : 8
             },
+            "Rocket League 3x3" : {
+                "Lugar" : "4º",
+                "Pontos" : 3
+            }
         },
         "Simão" : {
             "Bilatrecos" : {
@@ -289,6 +332,10 @@ var participacoes =
             "Scribbl.io" : {
                 "Lugar" : "10º",
                 "Pontos" : 3
+            },
+            "Rocket League 3x3" : {
+                "Lugar" : "1º",
+                "Pontos" : 8
             }
         },
         "João Nuno" : {
@@ -326,6 +373,10 @@ var participacoes =
                 "Lugar" : "2º",
                 "Pontos" : 4
             },
+            "Rocket League 3x3" : {
+                "Lugar" : "2º",
+                "Pontos" : 6
+            }
         },
         "Rui" : {
             "Futbiladas" : {
@@ -361,6 +412,10 @@ var participacoes =
             "Scribbl.io" : {
                 "Lugar" : "12º",
                 "Pontos" : 2
+            },
+            "Rocket League 3x3" : {
+                "Lugar" : "1º",
+                "Pontos" : 8
             }
         },
         "Frazão" : {
@@ -371,12 +426,20 @@ var participacoes =
             "Scribbl.io" : {
                 "Lugar" : "4º",
                 "Pontos" : 6
+            },
+            "Rocket League 3x3" : {
+                "Lugar" : "5º",
+                "Pontos" : 2
             }
         },
         "Gelly" : {
             "LOL 5x5" : {
                 "Lugar" : "3º",
                 "Pontos" : 4
+            },
+            "Rocket League 3x3" : {
+                "Lugar" : "2º",
+                "Pontos" : 6
             }
         },
         "Gama" : {
@@ -407,6 +470,24 @@ var participacoes =
             "LOL 5x5" : {
                 "Lugar" : "1º",
                 "Pontos" : 8
+            }
+        },
+        "Escher" : {
+            "Rocket League 3x3" : {
+                "Lugar" : "3º",
+                "Pontos" : 4
+            }
+        },
+        "Atlas" : {
+            "Rocket League 3x3" : {
+                "Lugar" : "3º",
+                "Pontos" : 4
+            }
+        },
+        "Alcunha" : {
+            "Rocket League 3x3" : {
+                "Lugar" : "5º",
+                "Pontos" : 2
             }
         }
     }
