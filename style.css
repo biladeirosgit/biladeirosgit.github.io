@@ -71,11 +71,11 @@ img {
 }
 
 .right a:hover {
-    background-color: #636e7a !important;
+    background-color: #bd7100 !important;
 }
 
 .left a:hover {
-    background-color: #bd7100 !important;
+    background-color: #636e7a !important;
 }
 
 .middle a:hover {
