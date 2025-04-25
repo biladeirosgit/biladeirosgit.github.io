@@ -24,7 +24,7 @@ html, body {
 }
 
 .left {
-    background-color: #ff9800;
+    background-color: #99aabb;
 }
 
 .middle {
@@ -32,7 +32,7 @@ html, body {
 }
 
 .right {
-    background-color: #99aabb;
+    background-color: #ff9800;
 }
 
 .section:hover {
