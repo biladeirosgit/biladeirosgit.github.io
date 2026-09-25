@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Tres bandas horizontais que dividem o ecra. A altura e definida (100vh) de
+/* Quatro bandas horizontais que dividem o ecra. A altura e definida (100vh) de
    proposito: e o que permite ao `max-height` da logo ser em % da banda.
    O min-height e o piso — abaixo dele a pagina faz scroll em vez de esmagar
    as logos ate ficarem ilegiveis (ex.: janela baixa num ecra widescreen). */
@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    min-height: 540px;
+    min-height: 720px;
 }
 
 .section {
@@ -40,8 +40,13 @@
     background-color: #bada55;
 }
 
+.livro {
+    background-color: #3b82f6;
+}
+
 /* A logo nunca e esticada nem transborda: encolhe com a banda, em qualquer
-   ecra. As tres sao 800x576, mas o `contain` protege se alguma mudar. */
+   ecra. As logos nao tem todas o mesmo formato (a do livro e quadrada), e o
+   `contain` mantem a proporcao de cada uma. */
 .section img {
     width: auto;
     height: auto;
@@ -77,6 +82,10 @@
 
     .olimpiadas:hover {
         background-color: #99b346;
+    }
+
+    .livro:hover {
+        background-color: #2f6ad0;
     }
 }
 
